@@ -10,10 +10,6 @@ int compStr(char *str1, char *str2)
 	for (int i = 0; i < length; i++)
 	{
 		if (*(str1 + i) > *(str2 + i))	return 1;
-	}
-
-	for (int i = 0; i < length; i++)
-	{
 		if (*(str1 + i) < *(str2 + i))	return -1;
 	}
 	return 0;
